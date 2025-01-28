@@ -6,7 +6,7 @@ const HomeScreen = ({ navigation }) => {
   const [recordings, setRecordings] = useState([]);
 
   useEffect(() => {
-    // Fetch stored recordings on component mount
+    // Fetch stored recordings on component
     // Placeholder for loading recordings from storage
     setRecordings([
       { id: '1', title: 'Voice Note 1', date: '2025-01-01' },
